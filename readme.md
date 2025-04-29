@@ -1,7 +1,7 @@
 # Ejercicio Express y Middlewares
 
 Este ejercicio utiliza [Express](https://expressjs.com/) para construir un servidor web simple con dos rutas y middleware para obtener la hora actual y validar si la hora es correcta y poder entrar en una ruta específica.
-
+ 
 Lee todo bien antes de empezar y así entender lo que se pide.
 
 ## Requisitos
