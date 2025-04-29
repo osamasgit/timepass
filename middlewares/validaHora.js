@@ -1,6 +1,6 @@
 const validateHour = (req,res,next) =>  {
     const hour = req.hour;
-    if (hour < 22) {
+    if (hour < 12) {
         res.locals.message = 'Todavía no es la hora para poder acceder'
         return res.redirect('/?message=' + encodeURIComponent(res.locals.message));
     }else {
